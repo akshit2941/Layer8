@@ -6,6 +6,10 @@
 
 Layer 8 is a cloud-native project deployed entirely on AWS, designed to protect user data. The architecture is structured into two distinct workflows:
 
+## Project Architecture Diagram
+
+![Architecture Diagram](Layer8Diagram.png)
+
 ## Regular User Requests
 
 Regular user requests are managed through the following services:
@@ -67,13 +71,7 @@ Sensitive, enterprise-grade processing is handled through:
 
 ---
 
-## Project Architecture Diagram
-
-![Architecture Diagram](Layer8Diagram.png)
-
----
-
-## 🧠 API Endpoints
+## API Endpoints
 
 | Endpoint              | Method | Description                     |
 | :-------------------- | :----- | :------------------------------ |
